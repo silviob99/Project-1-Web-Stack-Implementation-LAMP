@@ -45,6 +45,7 @@ Let's try this and follow the instructions below to get some work done.
 ```ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>```
 
  Congratulations! You have just created your very first Linux Server in the Cloud and our set up looks like this now. (You are the client)
+ 
 ![SSH-into-instance](https://github.com/silviob99/DevOps-Projects-1/assets/107585020/66cc0455-f975-4664-bd15-c3ac9ba30008)
 
 Please read information about AWS free tier limits and make sure that you *STOP* your EC2 instance when you are not using it.
