@@ -60,7 +60,6 @@ Note that every time you stop and start your EC2 instance - you will have a **ne
 Let us move on and configure our EC2 machine to serve a Web server.
 
 
-#### LAMP
 
 
 
