@@ -1,4 +1,5 @@
-![LAMP-Banner](https://github.com/silviob99/DevOps-Projects-1/assets/107585020/b1ca421d-2798-4d1e-b7da-3d9b4b9cdbd9)
+![LAMP-Banner](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/952afcc0-f95e-4f5a-9a91-5aa85c506dab)
+
 
 ### What is a tehnology stack?
 
@@ -17,7 +18,9 @@ AWS can provide free virtual servers
 <img width="960" alt="LAMP-AWSFreeTier" src="https://github.com/silviob99/DevOps-Projects-1/assets/107585020/b1bc83d3-d27e-4d6c-bc02-803b52a5195e">  
 
 2. [Creating your EC2 instance](https://youtu.be/a8CBE_WN7rA)  
-<img width="960" alt="LAMP-Picture1" src="https://github.com/silviob99/DevOps-Projects-1/assets/107585020/708fd556-1efb-4d36-b258-dc6b31887bb7">  
+<img width="960" alt="LAMP-Picture1" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/6374bc54-5ccb-4957-a169-6acc4732ca8e">
+
+
 
 ###### **IMPORTANT** -save your private key(.pem file) and do not share it with anyone! If you lose it, you will not be able to connect to your server ever again.
 
@@ -46,11 +49,13 @@ Let's try this and follow the instructions below to get some work done.
 
  Congratulations! You have just created your very first Linux Server in the Cloud and our set up looks like this now. (You are the client)
  
-![SSH-into-instance](https://github.com/silviob99/DevOps-Projects-1/assets/107585020/66cc0455-f975-4664-bd15-c3ac9ba30008)
+![SSH-into-instance](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/5bdc6976-6a2b-417f-bb30-138beeec94ca)
+
 
 Please read information about AWS free tier limits and make sure that you *STOP* your EC2 instance when you are not using it.
+<img width="766" alt="LAMP-Picture2(stop-inst)2023-06-04" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/5fe1802a-7451-4688-b35e-2e058c43c8a3">
 
- <img width="766" alt="LAMP-Picture2(stop-inst)2023-06-04" src="https://github.com/silviob99/DevOps-Projects-1/assets/107585020/993ff1fa-5e41-4dd5-9d78-fa2151f66e6a">
+ 
 
 All we need to know right now is that we can use 750 hours (31.25 days) of t2.micro server per month for the first 12 months **FOR FREE**.
 
