@@ -28,8 +28,16 @@ sudo systemctl status apache2
 
 If it's green and running, then you did everything correctly-you have just launched your first Web Server in the Cloud!
   
-<img width="960" alt="SSH sudo-status" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/ebc1bd57-1ee8-4d98-8ea7-1c8ba88c0698">
+<img width="960" alt="SSH sudo-status" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/ebc1bd57-1ee8-4d98-8ea7-1c8ba88c0698">  
 
 
+
+Before we can receive any traffic by our Web Server, we need to open TCP port 80 which is the default port that web browsers use to access web pages on the internet.
+As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add rule to EC2 configuration to open inbound connection through port 80:  
+
+<img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/9b901155-8a61-45bc-a097-deb8b3c4e0d7">  
+
+
+[![Edit inbound rules](<img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/f92cbf5b-1bb2-425e-88ca-ea438b9684ba">)](https://youtu.be/-4F5iYKVkLg)
 
 
