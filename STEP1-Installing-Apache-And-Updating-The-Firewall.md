@@ -32,12 +32,26 @@ If it's green and running, then you did everything correctly-you have just launc
 
 
 
-Before we can receive any traffic by our Web Server, we need to open TCP port 80 which is the default port that web browsers use to access web pages on the internet.
-As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add rule to EC2 configuration to open inbound connection through port 80:  
+Before we can receive any traffic by our Web Server, we need to open TCP port 80, which is the default port that web browsers use to access web pages on the internet.
 
-<img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/9b901155-8a61-45bc-a097-deb8b3c4e0d7">  
+As we know, we have TCP port 22 open by default on our EC2 machine to access it via SSH, so we need to add a rule to the EC2 configuration to open an inbound connection through port 80.
+
+[Edit Inbound Rules<img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/06e9b819-f304-422d-8231-5c9a577c2082">](https://youtu.be/-4F5iYKVkLg)
+
+Our server is running and we can access it locally and from the internet (Source 0.0.0.0/0 means 'from any IP address').  
+
+First let us try to check how we can access it locally in our Ubuntu shell, run:
+```
+curl http://localhost:80
+or 
+curl http://127.0.0.1:80
+```
 
 
-[![](<img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/f92cbf5b-1bb2-425e-88ca-ea438b9684ba">)](https://youtu.be/-4F5iYKVkLg)
+
+
+
+
+
 
 
