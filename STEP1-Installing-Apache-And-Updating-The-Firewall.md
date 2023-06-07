@@ -44,8 +44,33 @@ First let us try to check how we can access it locally in our Ubuntu shell, run:
 ```
 curl http://localhost:80
 or 
-curl http://127.0.0.1:80
-```
+curl http://127.0.0.1:80  
+```  
+
+These two commands above actually do pretty much the same - they use '**_curl_**' command to request our Apache HTTP Server on port 80  
+(actually you can even try not to specify any port-it will work anyway). The difference is that in the first case we try to access  our 
+server via [DNS Name](https://aws.amazon.com/route53/what-is-dns/) and in the second one - by IP address (in this case IP address 127.0.0.1 corresponds to DNS name 'localhost' and the
+process of converting a DNS name to IP address is called "resolution").   
+
+As an output you can see some strangely formatted test, do not worry, we just made sure that our Apache web service responds to 'curl'
+command with some payload.  
+
+Now we have to test how our Apache HTTP server can respond to requests from the Internet.  
+Open a web browser of your choice and try to access following url  
+
+```http://<Public-IP-Address>:80```  
+
+Another way to retrieve your Public IP address, other than to check it in AWS Web console, is to use following command:  
+
+```curl -s http://169.254.169.254/latest/meta-data/public-ipv4```  
+
+The URL in browser shall also work if you do not specify port number since all web browsers use port 80 by default.  
+If you see following page, then your web server is now correctly installed and accessible through your firewall.  
+
+<img width="960" alt="Apache" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/c0c8e4bb-55fd-4129-85b3-f0c0bf6a5fb3">  
+
+
+
 
 
 
