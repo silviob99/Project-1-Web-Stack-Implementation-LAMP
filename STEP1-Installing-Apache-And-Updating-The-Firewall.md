@@ -38,6 +38,6 @@ As we know, we have TCP port 22 open by default on our EC2 machine to access it 
 <img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/9b901155-8a61-45bc-a097-deb8b3c4e0d7">  
 
 
-[![Edit inbound rules](<img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/f92cbf5b-1bb2-425e-88ca-ea438b9684ba">)](https://youtu.be/-4F5iYKVkLg)
+[![](<img width="960" alt="AddInboundRule06-07" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/f92cbf5b-1bb2-425e-88ca-ea438b9684ba">)](https://youtu.be/-4F5iYKVkLg)
 
 
