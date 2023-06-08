@@ -45,6 +45,9 @@ This is not to be confused with the **system root**. The **database root** user 
 the default authentication method for the MySQL root user dispenses the use of a password, **even when one is set**, you should define a strong password here as an
 additional safety measure. I'll talk about this later.  
 
+If you enabled password validation, you'll be shown the password strength for the root password you just  entered and your server will ask if you want to continue  
+with that password. If you are happy with your current password, enter **y** for 'yes' at the prompt. 
+
 
 
 
