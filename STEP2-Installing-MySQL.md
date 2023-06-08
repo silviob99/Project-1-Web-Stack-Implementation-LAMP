@@ -40,6 +40,11 @@ STRONG  Length >= 8, numeric, mixed case, special characters and dictionary     
 Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
 ```
 
+Regardless of whether you chose to set up the VALIDATE PASSWORD PLUGIN, your server will next ask you to select and confirm a password for the MySQL **root** user.  
+This is not to be confused with the **system root**. The **database root** user is an administrative user with full privileges over the database system. Even though
+the default authentication method for the MySQL root user dispenses the use of a password, **even when one is set**, you should define a strong password here as an
+additional safety measure. I'll talk about this later.  
+
 
 
 
