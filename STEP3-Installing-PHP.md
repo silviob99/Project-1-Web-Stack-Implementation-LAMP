@@ -24,4 +24,4 @@ At this point, your LAMP stack is completely installed and fully operational.
 - [x] **M**ySQL
 - [x] **P**HP  
 
-
+To test your setup with PHP script, it's best to set up proper Apache Virtual Host to hold your website's files and folders. Virtual host allows you to have multiple websites located on a single machine and users of the websites will not even notice it.
