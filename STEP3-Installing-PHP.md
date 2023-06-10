@@ -17,4 +17,11 @@ Zend Engine v4.1.2, Copyright (c) Zeno Technologies
     with Zend OPcache v8.1.2-1ubuntu2.11, Copyright (c), by Zend Technologies 
 ```  
 
+At this point, your LAMP stack is completely installed and fully operational.
+
+- [x] **L**inux
+- [x] **A**pache
+- [x] **M**ySQL
+- [x] **P**HP  
+
 
