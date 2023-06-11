@@ -17,7 +17,7 @@ Zend Engine v4.1.2, Copyright (c) Zeno Technologies
     with Zend OPcache v8.1.2-1ubuntu2.11, Copyright (c), by Zend Technologies 
 ```  
 
-At this point, your LAMP stack is completely installed and fully operational.
+At this point, LAMP stack is completely installed and fully operational.
 
 - [x] **L**inux
 - [x] **A**pache
@@ -26,5 +26,8 @@ At this point, your LAMP stack is completely installed and fully operational.
 
 To test your setup with PHP script, it's best to set up proper Apache Virtual Host to hold your website's files and folders. Virtual host allows you to have multiple websites located on a single machine and users of the websites will not even notice it.  
 
-![ApacheVirtualHost](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/f0bf706a-5983-4b91-9be7-917fee59ba18)
+![ApacheVirtualHost](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/db43ee7e-ed85-4287-b888-7fed3f6026c9)  
+
+I will configure Virtual Host in the next step.  
+
 
