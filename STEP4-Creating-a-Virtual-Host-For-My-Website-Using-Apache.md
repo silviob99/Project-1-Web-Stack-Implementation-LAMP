@@ -25,9 +25,10 @@ and paste the text:
     ServerAlias www.sbanfic-projectlamp
     ServerAdmin webmaster@localhost  
     DocumentRoot  /var/www/sbanfic-projectlamp  
-    ErrorLog $(APACHE_LOG_DIR)/error.log  
-    CustomLog $(APACHE_LOG_DIR)/access.log combined 
+    ErrorLog ${APACHE_LOG_DIR}/error.log  
+    CustomLog ${APACHE_LOG_DIR}/access.log combined 
 </Virtual Host>
 ```
+To save and close the file, simply follow the steps below:  
 
-
+1.Hit the **esc** button on the keyboard 
