@@ -8,7 +8,7 @@ Create the directory for _**sbanfic-projectlamp**_ using **mkdir** command as fo
 ```sudo mkdir /var/www/sbanfic-projectlamp ``` 
 
 Next, assign ownership of the directory with your current system user:  
-```sudo chown -R $USER:$USER /var/www/projectlamp``` 
+```sudo chown -R $USER:$USER /var/www/sbanfic-projectlamp``` 
 
 Then create and open a new configuration file in Apache's **sites-available** directory using your prefered command-line editor. Here, we'll be
 using **vi** or **vim** (They are the same):  
@@ -21,7 +21,7 @@ and paste the text:
 
 ```
 <VirtualHost *:80>
-    ServerName sbanficprojectlamp
+    ServerName sbanfic-projectlamp
     ServerAlias www.sbanfic-projectlamp
     ServerAdmin webmaster@localhost  
     DocumentRoot  /var/www/sbanfic-projectlamp  
