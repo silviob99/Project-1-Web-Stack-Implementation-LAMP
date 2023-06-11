@@ -52,4 +52,13 @@ To make sure your configuration file doesn't contain syntax errors, run:
 
 ```sudo apache2ctl configtest```  
 
+Finally, reload Apache so these changes take effect:  
+
+```sudo systemctl reload apache2```  
+
+Your new website is now active but the web root **/var/www/sbanfic-projectlamp** is still empty. Create an index.html file in that location so that we can test that the virtual host works as expected:  
+
+```  
+echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) | sudo tee /var/www/sbanfic-projectlamp/index.html
+```  
 
