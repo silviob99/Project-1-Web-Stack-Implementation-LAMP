@@ -27,8 +27,23 @@ and paste the text:
     DocumentRoot  /var/www/sbanfic-projectlamp  
     ErrorLog ${APACHE_LOG_DIR}/error.log  
     CustomLog ${APACHE_LOG_DIR}/access.log combined 
-</Virtual Host>
+</VirtualHost>
 ```
 To save and close the file, simply follow the steps below:  
 
-1.Hit the **esc** button on the keyboard 
+1. Hit the **esc** button on the keyboard 
+2. Type **:**
+3. Type **wqa!** (w for write and q for quit)
+4. Hit ENTER to save the file 
+
+You can use the ls command to show the new file in the **sites-available** directory  
+```sudo ls /etc/apache2/sites-available``` 
+
+You will see sonething like this  
+```000.default.conf default-ssl.conf sbanfic-projectlamp.conf```  
+
+With this VirtualHost configuration, we're telling Apache to serve **sbanfic-projectlamp** using **/var/www/sbanfic-projectlamp** as it's root directory. If you would like to test Apache without domain name, you can remove or comment out the options ServerName and ServerAlias by adding a **#** character in the beginning of each option's lines. Adding the **#** character there will tell the program to skip processing the instructions on those lines.  
+
+You can now use **a2ensite** command to enable the new virtual host.   
+
+
