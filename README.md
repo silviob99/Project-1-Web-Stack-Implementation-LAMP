@@ -4,10 +4,10 @@
 This project provides a step-by-step guide on setting up a LAMP (Linux, Apache, MySQL, PHP) web stack on an Ubuntu 20.04 server.
 
 ## Table of Contents  
--Project Overview
--Installation
--Usage
--Steps
+- Project Overview
+- Installation
+- Usage
+- Steps
 
 
 ### Project Overview
@@ -16,9 +16,9 @@ Project-1: Web Stack Implementation (LAMP) is a tutorial-based project that guid
 ### Prerequisites
 Before starting the installation process, ensure that you have the following prerequisites:
 
--Ubuntu 20.04 server
--SSH access to the server
--Basic knowledge of Linux command line
+- Ubuntu 20.04 server
+- SSH access to the server
+- Basic knowledge of Linux command line
 
 ### Installation  
 
