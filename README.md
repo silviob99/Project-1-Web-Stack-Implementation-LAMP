@@ -16,19 +16,19 @@ Project-1: Web Stack Implementation (LAMP) is a tutorial-based project that guid
 ### Prerequisites
 Before starting the installation process, ensure that you have the following prerequisites:
 
-Ubuntu 20.04 server
-SSH access to the server
-Basic knowledge of Linux command line
+-Ubuntu 20.04 server
+-SSH access to the server
+-Basic knowledge of Linux command line
 
 ### Installation  
 
 To install and set up the LAMP stack on Ubuntu 20.04, follow these steps:
 
--Set up an Ubuntu 20.04 server.
--Update the system and install necessary packages.
--Install and configure Apache.
--Install and secure MySQL.
--Install and configure PHP. 
+- Set up an Ubuntu 20.04 server.
+- Update the system and install necessary packages.
+- Install and configure Apache.
+- Install and secure MySQL.
+- Install and configure PHP. 
 
 ### Usage 
 
@@ -36,11 +36,18 @@ Once the LAMP stack is set up, you can use it to host and run web applications. 
 
 ### Steps  
 
-Step 1: Set Up Ubuntu 20.04
-Step 2: Update System and Install Packages
-Step 3: Install and Configure Apache
-Step 4: Install and Secure MySQL
-Step 5: Install and Configure PHP 
+-Step 0: [Prerequisits](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/blob/main/STEP0-Prerequisites.md)
+
+-Step 1: [Installing Apache and updating the firewall](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/blob/main/STEP1-Installing-Apache-And-Updating-The-Firewall.md)
+
+-Step 2: [Installing MySQL](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/blob/main/STEP2-Installing-MySQL.md)
+
+-Step 3: [Installing PHP](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/blob/main/STEP3-Installing-PHP.md)
+
+-Step 4: [Creating a Virtual Host For My Website Using Apache](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/blob/main/STEP4-Creating-a-Virtual-Host-For-My-Website-Using-Apache.md)
+
+-Step 5: [Enable PHP on the Website](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/blob/main/STEP5-Enable-PHP-on-the-Website.md)
+
 
 ### Testing the Setup
 
