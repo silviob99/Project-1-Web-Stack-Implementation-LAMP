@@ -15,7 +15,8 @@ In order to complete this project I will need AWS account and a virtual server w
 AWS is the biggest Cloud Server Provider and it offers free tier account that we I'm going to leverage for my projects.  
 AWS can provide free virtual servers  
 1. [AWS account setup](https://youtu.be/XhW17g73fvY)
-<img width="960" alt="LAMP-AWSFreeTier" src="https://github.com/silviob99/DevOps-Projects-1/assets/107585020/b1bc83d3-d27e-4d6c-bc02-803b52a5195e">  
+  <img width="960" alt="LAMP-AWSFreeTier" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/1151f6b0-94bc-4f38-aee6-f1fea1c22345">
+
 
 2. [Creating your EC2 instance](https://youtu.be/a8CBE_WN7rA)  
 <img width="960" alt="LAMP-Picture1" src="https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/6374bc54-5ccb-4957-a169-6acc4732ca8e">
