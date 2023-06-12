@@ -1,6 +1,6 @@
 ![LAMP-Banner](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/assets/107585020/4be6fc17-c488-461c-a6a7-ea9a68f570b5)
 
-# Project-1-LAMP (Linux, Apache, MySQL, PHP) Web Stack Implementation
+# Project 1 - LAMP(Linux, Apache, MySQL, PHP)-Web Stack Implementation
 This project provides a step-by-step guide on setting up a LAMP (Linux, Apache, MySQL, PHP) web stack on an Ubuntu 20.04 server.
 
 ## Table of Contents  
