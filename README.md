@@ -49,9 +49,5 @@ Once the LAMP stack is set up, you can use it to host and run web applications. 
 -Step 5: [Enable PHP on the Website](https://github.com/silviob99/Project-1-Web-Stack-Implementation-LAMP/blob/main/STEP5-Enable-PHP-on-the-Website.md)
 
 
-### Testing the Setup
-
-Create an index.html file for testing:  
-```echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) | sudo tee /var/www/sbanfic-projectlamp/index.html```
 
 
